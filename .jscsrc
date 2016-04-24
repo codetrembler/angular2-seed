@@ -1,0 +1,8 @@
+{
+  "preset": "crockford",
+  "validateIndentation": 2,
+  "maximumLineLength": 200,
+  "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+  "requireMultipleVarDecl": null,
+  "validateQuoteMarks": { "mark": "'", "escape": true }
+}

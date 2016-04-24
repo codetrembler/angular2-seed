@@ -1,15 +1,14 @@
 {
   "name": "angular2-seed",
   "version": "1.0.0",
-  "description": "",
+  "description": "angular2-seed: Starting point for new Angular 2 projects",
   "main": "index.js",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "lite": "lite-server",
-    "typings": "typings",
-    "postinstall": "typings install"
+    "typings": "typings"
   },
   "repository": {
     "type": "git",
@@ -31,6 +30,10 @@
   },
   "devDependencies": {
     "concurrently": "^2.0.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-ts": "^5.5.0-beta.2",
     "lite-server": "^2.2.0",
     "typescript": "^1.8.9",
     "typings": "^0.7.12"
